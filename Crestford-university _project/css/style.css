@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  background: linear-gradient(rgba(4, 3, 30, 0.7), rgba(4, 3, 30, 0.7)),
+    url(../assest/images/background-main.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: auto ;
+  position: relative;
+}
+
+header {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #c0c0c0c0;
+}
+
+.logo {
+  padding: 20px 0 0 20px;
+}
+
+nav {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+nav h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav .nav-links ul {
+  padding-right: 50px;
+  /* background-color: #aa0c0c; */
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  width: 40vw;
+}
+
+.nav-links ul a {
+  text-decoration: none;
+  color: #fff;
+}
+/* .nav-links ul a:hover {
+  border-top: 2px solid #aa0c0c;
+  border-bottom: 2px solid #aa0c0c;
+  transition-delay: 0.5s;
+  transition-duration: 1s;
+} */
+
+.nav-links ul li {
+  list-style: none;
+  font-size: 13px;
+}
